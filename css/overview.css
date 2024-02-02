@@ -1,0 +1,329 @@
+
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 60px 0px 60px;
+}
+#navbar_inner{
+    margin: 15px 0px 0px 0px;
+}
+#nav_inner ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px ;
+}
+#nav_inner ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
+#nav_inner ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav_right{
+    margin: 15px 0px 0px 0px;
+}
+#nav_right a{
+   text-decoration: none;
+   margin: 10px 5px 0px 5px;
+   border: 1px solid black;
+   padding: 9px 12px 9px 12px;
+   box-sizing: border-box;
+   color: white;
+   background-color: #2F80ED;
+   border-radius: 4px;
+   border: 0px solid #2F80ED;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+}
+/* ================================= */
+
+#photo_cont{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 60px 0px 60px;
+    padding: 40px;
+    background-color: #F4F4F4;
+}
+.pc_1{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+
+}
+.pc_1 img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+/* ============================ */
+#ovmiddle{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4   ;
+    margin: 0px 60px 0px 60px;
+
+}
+#ovmiddle1{
+    width: 60%;
+}
+#ovmiddle1 h2{
+    font-family: 'Roboto', sans-serif;
+}
+.middle1 .checked{
+    color: orange;
+} 
+
+#ovmiddle11 i{
+    display: inline-block;
+    color: #2F80ED;
+    font-size: 12px;
+ }
+#ovmiddle11 p{
+   display: inline-block;
+   font-family: 'Roboto', sans-serif;
+   font-size: 12px;
+}
+
+#ovmiddle12{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#ovmiddle12 h3{
+    font-family: 'Roboto', sans-serif; 
+}
+#ovmiddle12 p{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+}
+
+#ovmiddle13{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2px;
+    padding: 20px;
+}
+#ovmiddle13_inner{
+    display: flex;
+    flex-direction: row;
+}
+.ovmiddle13_inner1{
+   margin: 10px 40px 20px 0px;
+}
+.ovmiddle13_inner1 i{
+    display: inline-block;
+    margin-right: 10px;
+    color: #2F80ED;
+}
+.ovmiddle13_inner1 p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+}
+#ovmiddle13 h3{
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* ========================== */
+
+#ovmiddle2{
+    width: 40%;
+    padding: 30px;
+}
+
+#ovmiddle2 h4{
+    font-family: 'Roboto', sans-serif; 
+}
+#ovm2img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ovm2inner_class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ovm2inner_class p{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;
+}
+.ovmc{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ovmc i{
+   display: inline-block;
+   margin-right: 10px;
+   font-size: 12px;
+}
+.ovmc p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+ }
+ /* =========================================== */
+ #book_container{
+    display: flex; 
+    justify-content: center;
+}
+#book_form{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 0px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 3px;
+}
+.form_div{
+    border: 0px solid #F2F2F2;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+.form_div input{
+    border: 0px solid white;  
+    background-color: #F2F2F2;
+}
+.form_div i{
+    margin: 2px 2px 2px 2px;
+}
+
+#book_form a{
+    text-decoration: none;
+    text-align: center;
+    border: 0px solid #2F80ED;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 30px 10px 30px;
+    background-color: #2F80ED;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+/* ================================== */
+#ovlast{
+    margin: 20px 60px 0px 60px;
+}
+#ovlast h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/* #last{
+    width: 100%;
+} */
+#last_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#last_inner .li1{
+    width: 600px;
+}
+.li1 img{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.li2{
+    border: 2px solid white;
+    width: 600px;
+    margin: 20px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+.li2 img{
+    width: 100%;
+}
+.li2 h3{
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.li2_inner{
+    padding-left: 20px;
+}
+.li2_inner i{
+    display: inline-block;
+    margin-right: 10px;
+}
+.li2_inner p{
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.li2_a{
+    width: 100%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2F80ED;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.li2 a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* ===================fotter */
+#footer{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 60px 0px 60px;
+    justify-content: space-between;
+
+}
+#footer div ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#footer div ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+#footer div ul li h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100 ;
+}
+#footer_logo {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 0px 0px;
+}
+
+#footer_logo img {
+    height: 25px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#footer_logo h3 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,73 @@
+<!-- html:5  is boiler plate -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign_in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/81a36d984d.js" crossorigin="anonymous"></script>
+    <style>
+        #logo {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+        }
+
+        #logo img {
+            height: 25px;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+
+        #logo h3 {
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+        }
+        #form_content img{
+            height: 250px;
+            border-radius: 10px;
+        }
+        #form_content p{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="logo">
+            <img src="../images/logo.png">
+            <h3><b>my Dream Place</b></h3>
+        </div>
+        <div id="form_container">
+            <div id="form_content">
+                <div>
+                    <img src="../images/inbox.png" alt="">
+                </div>
+                <h1>Check your Inbox</h1>
+                <p>We have just emailed you the instrustions and a reset password link to <b>Sumail_john@gmail.com.</b> It
+                    might take a few minutes to arrive</p>
+                <form id="form">
+                    <div class="formf">
+                        <div class="formbutton" style="background-color: #2F80ED; border: 0px solid white;">
+                            <a style="color: white;" href="./sign_in.html">Back to Sign in</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

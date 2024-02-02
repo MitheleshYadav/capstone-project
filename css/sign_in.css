@@ -1,0 +1,78 @@
+#form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#form_content{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+#form{
+    width: 100%;
+}
+#form_content h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+.formf{
+    margin: 10px;
+}
+.formf label{
+    display:inline-block;
+    margin: 0px 0px 6px 0px;
+    font-weight: 600;
+}
+.formf input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    background-color: #F2F2F2;
+    border: 0px #F2F2F2;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+}
+.formf-c {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 30px;
+    font-weight: 300;
+}
+.formf-c input {
+   margin: 0px;
+   padding: 0px;
+}
+.formf-c a{
+    margin-left: 167px;
+
+}
+.formbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px 0px 10px 0px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 0px;
+}
+.formbutton img{
+    height: 15px;
+    margin-right: 10px;
+}
+.formbutton a{
+    color: black;
+    text-decoration: none;
+}

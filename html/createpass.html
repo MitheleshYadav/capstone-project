@@ -1,0 +1,68 @@
+<!-- html:5  is boiler plate -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign_in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/81a36d984d.js" crossorigin="anonymous"></script>
+    <style>
+        #logo{
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+        }
+        #logo img{
+            height: 25px;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #logo h3{
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="logo">
+            <img src="../images/logo.png">
+            <h3><b>my Dream Place</b></h3>
+        </div>
+        <div id="form_container">
+            <div id="form_content">
+                <h1>Create Password</h1>
+                <p style="text-align: center; font-size: 16px; font-weight: lighter; margin-top: 0px;
+                margin-bottom: 35px;">Use minimum of 10 character, including letters, lowercase letters, and number</p>
+                <form id="form">
+                    <div class="formf">
+                        <label>Password</label><br>
+                        <input type="password"><br>
+                    </div>
+                    <div class="formf">
+                        <label>Confirm password</label><br>
+                        <input type="password"><br>
+                    </div>
+                    
+                    <div class="formf">
+                        <div class="formbutton" style="background-color: #2F80ED; border: 0px solid white;">
+                            <a style="color: white;" href="./sign_in.html">Reset password</a>
+                        </div>
+                    </div>
+                </form>
+                <p style="box-sizing: border-box; text-align: left; margin: 10px;">By creating an account, you agree with our <a href="#">Terms and condition</a> and <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
